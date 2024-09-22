@@ -10,7 +10,7 @@ public class TC_Login_001
 {
 
 
-    @Test(priority = 1)
+    @Test(priority = 1,invocationCount=10)
     public void TC_Login_001(){
         String email = "tom@testmail.com",password = "Password@123";
         UserClass uc = new UserClass();
